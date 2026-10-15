@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Projeto acadêmico da Biblioteca Digital UniFECAF: livros, áreas de conhecimento, unidades e orientação para estudar.">
+  <meta name="theme-color" content="#092e45">
+  <title>Biblioteca Digital UniFECAF | Conhecimento que acompanha você</title>
+  <link rel="icon" href="assets/imagens/design.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="inicio">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <div class="academic-note">PROJETO ACADÊMICO DE DESIGN WEB <span>• Interface demonstrativa, sem vínculo com o atendimento oficial</span></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#inicio" class="brand" aria-label="Biblioteca Digital UniFECAF, início"><span class="brand-mark" aria-hidden="true">U</span><span><strong>UniFECAF</strong><small>BIBLIOTECA DIGITAL</small></span></a>
+      <nav aria-label="Navegação principal"><ul><li><a href="#sobre">Biblioteca</a></li><li><a href="#livros">Livros</a></li><li><a href="#unidades">Unidades</a></li><li><a href="#contato">Contato</a></li></ul></nav>
+      <a class="header-link" href="https://www.unifecaf.com.br/biblioteca">Biblioteca oficial <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+  <main id="conteudo" tabindex="-1">
+    <!-- Banner principal do protótipo: título e imagem em uma composição responsiva. -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy"><p class="eyebrow">UM NOVO CAPÍTULO COMEÇA AQUI</p><h1 id="hero-title">Conhecimento que<br>acompanha <em>você.</em></h1><p class="lead">Entre uma pergunta e uma descoberta, existe uma boa leitura. Encontre inspiração para aprender, pesquisar e ir além.</p><div class="hero-actions"><a class="button" href="#livros">Explore nossos livros <span aria-hidden="true">→</span></a><a class="text-link" href="#sobre">Conheça a biblioteca</a></div><p class="hero-foot"><span aria-hidden="true">✦</span> Seu próximo aprendizado está a uma leitura de distância.</p></div>
+        <figure class="hero-art"><img src="assets/imagens/biblioteca.svg" alt="Ilustração de uma biblioteca com estantes, livros e uma mesa de leitura sob uma janela em arco." width="800" height="620"><figcaption><span>ESPAÇO PARA NOVAS IDEIAS</span><strong>Leia. Descubra. Transforme.</strong></figcaption></figure>
+      </div>
+    </section>
+    <section class="section" id="sobre" aria-labelledby="sobre-title">
+      <div class="container"><p class="eyebrow">01 / NOSSA BIBLIOTECA</p><h2 id="sobre-title">Um lugar para ampliar horizontes.</h2>
+        <div class="about-grid"><p>A biblioteca conecta estudantes ao conhecimento. Esta interface reúne uma seleção demonstrativa de leituras e orientações para facilitar o primeiro contato com os recursos acadêmicos.</p><figure><img src="assets/imagens/biblioteca.svg" alt="" width="800" height="620" loading="lazy"><figcaption>Aprender também é descobrir novos caminhos.</figcaption></figure><div><p>Encontre áreas do seu interesse, conheça os serviços e saiba onde buscar apoio. Para consultar a disponibilidade de obras e acessar as bibliotecas virtuais, utilize os canais oficiais da UniFECAF.</p><a class="text-link" href="https://www.unifecaf.com.br/biblioteca">Conheça os serviços oficiais <span aria-hidden="true">↗</span></a></div></div>
+        <div class="areas" aria-label="Áreas de conhecimento"><a href="#livro-design"><span aria-hidden="true">&lt;/&gt;</span><strong>Tecnologia</strong><small>Crie novas possibilidades</small></a><a href="#livro-gestao"><span aria-hidden="true">↗</span><strong>Gestão</strong><small>Transforme ideias em ação</small></a><a href="#livro-metodologia"><span aria-hidden="true">⌕</span><strong>Pesquisa</strong><small>Faça boas perguntas</small></a><a href="#livro-literatura"><span aria-hidden="true">Aa</span><strong>Literatura</strong><small>Descubra outros olhares</small></a></div>
+      </div>
+    </section>
+    <!-- Segundo banner mantido entre a apresentação e a seleção de livros. -->
+    <aside class="reading-banner"><div class="container reading-inner"><div><p class="eyebrow">DA CURIOSIDADE À DESCOBERTA</p><h2>Abra um livro.<br>Expanda seu mundo.</h2></div><p>Reserve um momento do dia para aprender algo novo. Uma ideia pode ser o começo de uma grande transformação.</p><a class="button light" href="#livros">Encontre sua próxima leitura <span aria-hidden="true">↓</span></a></div></aside>
+    <section class="section catalog" id="livros" aria-labelledby="livros-title"><div class="container"><div class="section-heading"><div><p class="eyebrow">02 / NOSSOS LIVROS</p><h2 id="livros-title">Uma estante de possibilidades.</h2></div><span class="section-count">06 LEITURAS EM DESTAQUE</span></div><p class="catalog-note">Seleção demonstrativa com títulos e capas ilustrativos, criada para este projeto acadêmico. Consulte o acervo oficial para encontrar obras disponíveis.</p><div class="book-grid">
+        <article class="book-card" id="livro-design">
+          <div class="cover-stage"><img src="assets/imagens/design.svg" alt="" width="300" height="390" loading="lazy"></div>
+          <div class="book-content"><span class="tag">Tecnologia</span><h3>Fundamentos de Design Web</h3><p>Hierarquia visual, tipografia e composição para transformar ideias em páginas claras e consistentes.</p>
+            <details><summary>Saiba mais<span class="sr-only"> sobre Fundamentos de Design Web</span></summary><div class="book-detail"><strong>Para começar a estudar</strong><p>Observe o contraste entre título e texto, defina uma escala tipográfica e organize o conteúdo antes de escolher os detalhes visuais.</p><p class="small">Título e capa ilustrativos; não representam uma obra disponível no acervo real.</p></div></details>
+          </div>
+        </article>
+        <article class="book-card" id="livro-algoritmos">
+          <div class="cover-stage"><img src="assets/imagens/algoritmos.svg" alt="" width="300" height="390" loading="lazy"></div>
+          <div class="book-content"><span class="tag">Tecnologia</span><h3>Algoritmos e lógica</h3><p>Uma introdução ao raciocínio lógico e à construção de soluções passo a passo.</p>
+            <details><summary>Saiba mais<span class="sr-only"> sobre Algoritmos e lógica</span></summary><div class="book-detail"><strong>Para começar a estudar</strong><p>Decomponha um problema em entradas, processamento e saídas. Escreva o passo a passo antes de pensar em uma linguagem.</p><p class="small">Título e capa ilustrativos; não representam uma obra disponível no acervo real.</p></div></details>
+          </div>
+        </article>
+        <article class="book-card" id="livro-gestao">
+          <div class="cover-stage"><img src="assets/imagens/gestao.svg" alt="" width="300" height="390" loading="lazy"></div>
+          <div class="book-content"><span class="tag">Gestão</span><h3>Gestão e inovação</h3><p>Conceitos de planejamento, organização e inovação aplicados ao cotidiano das organizações.</p>
+            <details><summary>Saiba mais<span class="sr-only"> sobre Gestão e inovação</span></summary><div class="book-detail"><strong>Para começar a estudar</strong><p>Relacione cada objetivo a uma ação e a um indicador. Analise como a proposta atende a uma necessidade concreta.</p><p class="small">Título e capa ilustrativos; não representam uma obra disponível no acervo real.</p></div></details>
+          </div>
+        </article>
+        <article class="book-card" id="livro-metodologia">
+          <div class="cover-stage"><img src="assets/imagens/metodologia.svg" alt="" width="300" height="390" loading="lazy"></div>
+          <div class="book-content"><span class="tag">Pesquisa</span><h3>Metodologia científica</h3><p>Um percurso por problemas de pesquisa, fontes confiáveis e organização do trabalho acadêmico.</p>
+            <details><summary>Saiba mais<span class="sr-only"> sobre Metodologia científica</span></summary><div class="book-detail"><strong>Para começar a estudar</strong><p>Comece com uma pergunta delimitada, registre as fontes consultadas e diferencie evidências de interpretações.</p><p class="small">Título e capa ilustrativos; não representam uma obra disponível no acervo real.</p></div></details>
+          </div>
+        </article>
+        <article class="book-card" id="livro-literatura">
+          <div class="cover-stage"><img src="assets/imagens/literatura.svg" alt="" width="300" height="390" loading="lazy"></div>
+          <div class="book-content"><span class="tag">Literatura</span><h3>Literatura brasileira</h3><p>Caminhos para explorar narrativas, contextos históricos e diferentes formas de expressão.</p>
+            <details><summary>Saiba mais<span class="sr-only"> sobre Literatura brasileira</span></summary><div class="book-detail"><strong>Para começar a estudar</strong><p>Compare narrador, linguagem e contexto de duas obras. Sustente sua leitura com trechos e referências.</p><p class="small">Título e capa ilustrativos; não representam uma obra disponível no acervo real.</p></div></details>
+          </div>
+        </article>
+        <article class="book-card" id="livro-comunicacao">
+          <div class="cover-stage"><img src="assets/imagens/comunicacao.svg" alt="" width="300" height="390" loading="lazy"></div>
+          <div class="book-content"><span class="tag">Pesquisa</span><h3>Comunicação e escrita</h3><p>Práticas de leitura, argumentação e escrita para comunicar ideias com mais precisão.</p>
+            <details><summary>Saiba mais<span class="sr-only"> sobre Comunicação e escrita</span></summary><div class="book-detail"><strong>Para começar a estudar</strong><p>Defina a ideia principal de cada parágrafo, conecte os argumentos e revise frases que dificultem a compreensão.</p><p class="small">Título e capa ilustrativos; não representam uma obra disponível no acervo real.</p></div></details>
+          </div>
+        </article>
+      </div><div class="catalog-end"><span>Quer consultar o acervo da instituição?</span><a class="text-link" href="https://www.unifecaf.com.br/biblioteca">Acesse a biblioteca oficial <span aria-hidden="true">↗</span></a></div></div></section>
+    <section class="section units" id="unidades" aria-labelledby="unidades-title"><div class="container"><p class="eyebrow">03 / AS UNIDADES</p><h2 id="unidades-title">Perto de você. Aberta ao conhecimento.</h2><p class="units-intro">Conheça a sede, um polo de apoio e a rede da UniFECAF. Consulte os canais oficiais para verificar serviços e horários de cada local.</p>
+      <article class="unit-row"><img src="assets/imagens/campus.svg" alt="Ilustração arquitetônica genérica de um campus; não é uma fotografia da sede." width="480" height="300" loading="lazy"><div><span class="unit-number">01 / SEDE</span><h3>Taboão da Serra</h3><p>Av. Vida Nova, 166, Jardim Maria Rosa.<br>Taboão da Serra, São Paulo.</p><a href="https://www.unifecaf.com.br/polos-e-unidades" class="text-link">Informações sobre as unidades <span aria-hidden="true">↗</span></a></div></article>
+      <article class="unit-row"><img src="assets/imagens/polo.svg" alt="Ilustração genérica de uma unidade de ensino; não é uma fotografia do polo." width="480" height="300" loading="lazy"><div><span class="unit-number">02 / POLO DE APOIO</span><h3>Capão Redondo</h3><p>Estrada de Itapecerica, 3632, Capão Redondo.<br>São Paulo, São Paulo.</p><a href="https://www.unifecaf.com.br/polos-e-unidades/sao-paulo-capao-redondo-sp" class="text-link">Conheça este polo <span aria-hidden="true">↗</span></a></div></article>
+      <article class="unit-row"><img src="assets/imagens/rede.svg" alt="Ilustração genérica representando a rede de polos de apoio." width="480" height="300" loading="lazy"><div><span class="unit-number">03 / REDE DE POLOS</span><h3>Encontre seu ponto de apoio</h3><p>Consulte a relação oficial de polos e encontre uma unidade na sua região. A oferta de serviços deve ser confirmada com o local escolhido.</p><a href="https://www.unifecaf.com.br/polos" class="text-link">Localize um polo <span aria-hidden="true">↗</span></a></div></article>
+    </div></section>
+    <section class="section contact" id="contato" aria-labelledby="contato-title"><div class="container contact-grid"><div><p class="eyebrow">04 / CONTATO</p><h2 id="contato-title">Sua próxima descoberta<br>pode começar com uma pergunta.</h2><p>Precisa de orientação para acessar a biblioteca, consultar o acervo ou conhecer as regras de uso? Encontre as informações nos canais oficiais.</p><a class="button" href="https://www.unifecaf.com.br/biblioteca">Orientações da biblioteca <span aria-hidden="true">↗</span></a></div><div class="contact-panel"><span class="eyebrow">COMO COMEÇAR</span><ol><li>Acesse a página oficial da biblioteca.</li><li>Confira as instruções de acesso pela plataforma One.</li><li>Escolha a biblioteca ou o serviço que deseja consultar.</li></ol><p>Este projeto não coleta dados pessoais e não realiza empréstimos.</p></div></div></section>
+  </main>
+  <footer><div class="container footer-inner"><a class="brand" href="#inicio"><span class="brand-mark" aria-hidden="true">U</span><span><strong>UniFECAF</strong><small>BIBLIOTECA DIGITAL</small></span></a><p>Projeto acadêmico • Design Web • 2026<br>Interface demonstrativa em HTML e CSS.</p><a href="#inicio">Voltar ao topo ↑</a></div></footer>
+</body>
+</html>
